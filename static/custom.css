@@ -1,0 +1,17 @@
+:root {
+  --bs-primary: #d4a5a5; /* Rosa suave */
+  --bs-primary-rgb: 212, 165, 165;
+  --bs-secondary: #f4e4a6; /* Dourado claro */
+}
+/* static/css/custom.css */
+.card.item-card {
+  border: 1px solid var(--bs-primary);
+  border-radius: 15px; /* Bordas mais arredondadas */
+}
+.card.item-card:hover {
+  box-shadow: 0 .5rem 1rem rgba(var(--bs-primary-rgb), .15); /* Sombra na cor tema */
+}
+.btn-success {
+  background-color: #28a745; /* Ou uma cor do seu tema */
+  border-color: #28a745;
+}
